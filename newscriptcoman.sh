@@ -35,4 +35,4 @@ sleep 1
 echo 'Command creation complete'
 sleep 1
 echo 'please Reboot you system for the app to take effect'
-chmod -rw ~/.Newscript
+
