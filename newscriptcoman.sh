@@ -34,5 +34,15 @@ echo 'alias newscript="~/.Newscript"' >>~/.zshrc
 sleep 1
 echo 'Command creation complete'
 sleep 1
-echo 'please Reboot you system for the app to take effect'
+CUser=whoami
+echo "This Command only work on $CUser ! "
+sleep 1
+echo 'Just write: newscript  .  and then follow the instructions'
+sleep 1
+echo 'creating new bash script EASY'
+sleep 1
+echo 'Just Reboot your system for the app to take effect'
+sleep 1
+echo 'Enjoy'
+
 
