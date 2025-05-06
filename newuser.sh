@@ -2,7 +2,7 @@
 
 # created by avi twil
 echo "User creation script by Avi Twil . please wait .."
-sleep 3
+
 # Ask for new user name
 read -p "Enter new user name: " UNAME
 
