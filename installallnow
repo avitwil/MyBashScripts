@@ -3,19 +3,19 @@
 echo "installing packeges by Avi Twill . . ."
 sleep 3
 echo 'installing "newuser" command ...'
-cp newuser /usr/bin/newuser
-chmod 700 /usr/bin/newuser
-chown root /usr/bin/newuser
+sudo cp newuser /usr/bin/newuser
+sudo chmod 700 /usr/bin/newuser
+sudo chown root /usr/bin/newuser
 sleep 2
 echo 'installing "stc" command ...'
-cp scripttocommand.sh /usr/bin/stc
-chmod 700 /usr/bin/stc
-chown root /usr/bin/stc
+sudo cp scripttocommand.sh /usr/bin/stc
+sudo chmod 700 /usr/bin/stc
+sudo chown root /usr/bin/stc
 sleep 2
 echo 'installing "updatemykali" command ...'
-cp updatemykali /usr/bin/updatemykali
-chmod 700 /usr/bin/updatemykali
-chown root /usr/bin/updatemykali
+sudo cp updatemykali /usr/bin/updatemykali
+sudo chmod 700 /usr/bin/updatemykali
+sudo chown root /usr/bin/updatemykali
 sleep 2
 echo " installation complete"
 sleep 1
