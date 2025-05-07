@@ -5,6 +5,6 @@ chown root /usr/bin/newuser
 cp scripttocommand.sh /usr/bin/stc
 chmod 700 /usr/bin/stc
 chown root /usr/bin/stc
-cp updatemykaly /usr/bin/updatemykaly
-chmod 700 /usr/bin/updatemykaly
-chown root /usr/bin/updatemykaly
+cp updatemykali /usr/bin/updatemykali
+chmod 700 /usr/bin/updatemykali
+chown root /usr/bin/updatemykali
