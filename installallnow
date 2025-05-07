@@ -2,19 +2,28 @@
 
 echo "installing packeges by Avi Twill . . ."
 sleep 3
+echo 'installing "newuser" command ...'
 cp newuser /usr/bin/newuser
 chmod 700 /usr/bin/newuser
 chown root /usr/bin/newuser
+sleep 2
+echo 'installing "stc" command ...'
 cp scripttocommand.sh /usr/bin/stc
 chmod 700 /usr/bin/stc
 chown root /usr/bin/stc
+sleep 2
+echo 'installing "updatemykali" command ...'
 cp updatemykali /usr/bin/updatemykali
 chmod 700 /usr/bin/updatemykali
 chown root /usr/bin/updatemykali
-
+sleep 2
 echo " installation complete"
+sleep 1
+echo "--------------------------------------------------------------------------------------------------------"
 echo " newuser -- create new user Just better "
 echo " stc [script file] [command name] [sudo/nothing] -- take a scripte file and turn it in to a command "
 echo " updatemykali -- doing updates and upgrades automaticly , no inputs needed"
+echo "--------------------------------------------------------------------------------------------------------"
+sleep 1
 echo " Enjoy"
 
