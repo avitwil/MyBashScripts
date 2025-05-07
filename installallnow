@@ -12,9 +12,9 @@ cp updatemykali /usr/bin/updatemykali
 chmod 700 /usr/bin/updatemykali
 chown root /usr/bin/updatemykali
 
-echo " installation coplete"
+echo " installation complete"
 echo " newuser -- create new user Just better "
 echo " stc [script file] [command name] [sudo/nothing] -- take a scripte file and turn it in to a command "
-echo " updatemykaly -- doing updates and upgrades automaticly , no inputs needed"
+echo " updatemykali -- doing updates and upgrades automaticly , no inputs needed"
 echo " Enjoy"
 
